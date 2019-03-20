@@ -1,3 +1,7 @@
+@font-face {
+      font-family: myFirstFont; 
+      src: url(fonts/SanFranciscoDisplay-Regular.otf);
+    }
 @media (max-width: 768px) {
 	section.download .badges .badge-link {
     display: inline-block;
@@ -151,7 +155,7 @@ header a:hover{
 	margin-left: 50px;
 }
 .thalescode {
-	font-family: sans-serif;
+	font-family: myFirstFont;
 	font-style: normal;
 	font-weight: bolder;
 	line-height: 44px;
@@ -163,7 +167,7 @@ header a:hover{
 	margin-left: 50px;
 }
 .thalescode_description {
-	font-family: Ubuntu;
+	font-family: myFirstFont;
 	font-style: normal;
 	font-weight: bold;
 	line-height: 33px;
@@ -174,7 +178,7 @@ header a:hover{
 	padding-top: 20px;margin-left: 50px;
 }
 .thalescode_description_2nd_line {
-	font-family: Ubuntu;
+	font-family: myFirstFont;
 	font-style: normal;
 	font-weight: bold;
 	line-height: 33px;
@@ -185,7 +189,7 @@ header a:hover{
 	margin-left: 50px;
 }
 #black_botton_1 {
-	font-family: Ubuntu;
+	font-family: myFirstFont;
 	font-style: normal;
 	font-weight: bold;
 	line-height: 18px;
@@ -199,7 +203,7 @@ header a:hover{
 	margin-top: 20px;
 }
 #black_botton_2 {
-	font-family: Ubuntu;
+	font-family: myFirstFont;
 	font-style: normal;
 	font-weight: bold;
 	line-height: 18px;
@@ -221,7 +225,7 @@ header a:hover{
 }
 .thalescode_paragraph {
 	margin: -40px 15px 55px 35px;
-	font-family: Ubuntu;
+	font-family: myFirstFont;
 	font-style: normal;
 	font-size: 10px;
 	text-transform: lowercase;
@@ -243,7 +247,7 @@ header a:hover{
 	margin: 0px 0px 15px 0px;
 }
 .LatestJobs_title {
-	font-family: Ubuntu;
+	font-family: myFirstFont;
 	font-style: normal;
 	font-weight: bold;
 	line-height: 90px;
@@ -253,7 +257,7 @@ header a:hover{
 .motivo {
 	margin-top: 20px;
 	margin-bottom: 20px;
-	font-family: Ubuntu;
+	font-family: myFirstFont;
 	font-style: normal;
 	font-weight: 500;
 	line-height: normal;
@@ -265,7 +269,7 @@ header a:hover{
 }
 #findmore {
 	background-color: white;
-	font-family: Ubuntu;
+	font-family: myFirstFont;
 	font-style: normal;
 	font-weight: bold;
 	line-height: 16px;
@@ -288,7 +292,7 @@ header a:hover{
     border: 0 0;
 }
 .fullstack_developer {
-	font-family: Ubuntu;
+	font-family: myFirstFont;
 	font-style: normal;
 	font-weight: bold;
 	line-height: normal;
@@ -329,7 +333,7 @@ header a:hover{
 	margin-bottom: 18px;
 }
 .content1 {
-	font-family: Ubuntu;
+	font-family: myFirstFont;
 	font-style: normal;
 	font-weight: 300;
 	line-height: 20px;
@@ -363,7 +367,7 @@ p {
 	position: absolute;
 }
 .getWhereyouAreGoing_Title {
-	font-family: Ubuntu;
+	font-family: myFirstFont;
 	font-style: normal;
 	font-weight: bold;
 	line-height: 46px;
@@ -373,7 +377,7 @@ p {
 	margin-bottom: 20px;
 }
 .getWhereyouAreGoing {
-	font-family: Ubuntu;
+	font-family: myFirstFont;
 	font-style: normal;
 	font-weight: 300;
 	line-height: 22px;
@@ -393,7 +397,7 @@ p {
 }
 .readmore {
 	background-color: white;
-	font-family: Ubuntu;
+	font-family: myFirstFont;
 	font-style: normal;
 	font-weight: bold;
 	line-height: 16px;
@@ -419,7 +423,7 @@ p {
 	margin-left: 200px;
 }
 .Why_ThalesCode {
-	font-family: Ubuntu;
+	font-family: myFirstFont;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 30px;
@@ -428,7 +432,7 @@ p {
 	color: #2B3247;
 }
 .why_developers_choose_us {
-	font-family: Ubuntu;
+	font-family: myFirstFont;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 12px;
@@ -441,7 +445,7 @@ p {
 	margin-top: 20px;
 }
 .Employers {
-	font-family: Ubuntu;
+	font-family: myFirstFont;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 18px;
@@ -452,7 +456,7 @@ p {
 	margin-left: 450px;
 }
 .Candidates {
-	font-family: Ubuntu;
+	font-family: myFirstFont;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 18px;
@@ -470,7 +474,7 @@ p {
 	margin-left: 540px;
 }
 .number {
-	font-family: Ubuntu;
+	font-family: myFirstFont;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 19px;
@@ -478,7 +482,7 @@ p {
 	color: #2CA1F8;
 }
 .IT_Training {
-	font-family: Ubuntu;
+	font-family: myFirstFont;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 15px;
@@ -487,7 +491,7 @@ p {
 	color: #2B3247;
 }
 .IT_Training_paragraph {
-	font-family: Ubuntu;
+	font-family: myFirstFont;
 	font-style: normal;
 	font-weight: 300;
 	font-size: 12px;
@@ -497,7 +501,7 @@ p {
 	opacity: 0.5;
 }
 .by3 {
-	font-family: Ubuntu;
+	font-family: myFirstFont;
 	font-size: 15px;
 	line-height: 30px;
 	text-align: justify;
@@ -505,7 +509,7 @@ p {
 	margin-left: 0px;
 }
 .Fabian3 {
-	font-family: Ubuntu;
+	font-family: myFirstFont;
 	font-style: italic;
 	font-weight: bold;
 	font-size: 15px;
@@ -514,7 +518,7 @@ p {
 	color: #8C93AA;
 }
 .by4 {
-	font-family: Ubuntu;
+	font-family: myFirstFont;
 	font-size: 15px;
 	line-height: 30px;
 	text-align: justify;
@@ -522,7 +526,7 @@ p {
 	margin-left: 440px;
 }
 .Fabian4 {
-	font-family: Ubuntu;
+	font-family: myFirstFont;
 	font-style: italic;
 	font-weight: bold;
 	font-size: 15px;
@@ -532,7 +536,7 @@ p {
 }
 #findmore2 {
 	background-color: white;
-	font-family: Ubuntu;
+	font-family: myFirstFont;
 	font-style: normal;
 	font-weight: bold;
 	line-height: 16px;
@@ -550,7 +554,7 @@ p {
     margin-top: 0px;
 }
 .ThalesBlog_title {
-	font-family: Ubuntu;
+	font-family: myFirstFont;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 35px;
@@ -562,7 +566,7 @@ p {
 	color: #2B3247;
 }
 .learnmore {
-	font-family: Ubuntu;
+	font-family: myFirstFont;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 8px;
@@ -576,7 +580,7 @@ p {
 }
 #findmore1 {
 	background-color: white;
-	font-family: Ubuntu;
+	font-family: myFirstFont;
 	font-style: normal;
 	font-weight: bold;
 	line-height: 16px;
@@ -594,7 +598,7 @@ p {
     margin-top: 0px;
 }
 .card-text_1 {
-	font-family: Ubuntu;
+	font-family: myFirstFont;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 25px;
@@ -604,7 +608,7 @@ p {
 	margin-bottom: 0px;
 }
 .card-text_2 {
-	font-family: Ubuntu;
+	font-family: myFirstFont;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 20px;
@@ -612,7 +616,7 @@ p {
 	color: #000000;
 }
 .card-text_3 {
-	font-family: Ubuntu;
+	font-family: myFirstFont;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 20px;
@@ -620,7 +624,7 @@ p {
 	color: #000000;
 }
 .card_text_4 {
-	font-family: Ubuntu;
+	font-family: myFirstFont;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 20px;
@@ -630,7 +634,7 @@ p {
 	padding-bottom: 20px;
 }
 .card_paragraph_1 {
-	font-family: Ubuntu;
+	font-family: myFirstFont;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 13px;
@@ -640,7 +644,7 @@ p {
 	color: #8C93AA;
 }
 .card_paragraph_2 {
-	font-family: Ubuntu;
+	font-family: myFirstFont;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 13px;
@@ -649,7 +653,7 @@ p {
 	color: #8C93AA;
 }
 .card_paragraph_3 {
-	font-family: Ubuntu;
+	font-family: myFirstFont;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 13px;
@@ -658,7 +662,7 @@ p {
 	color: #8C93AA;
 }
 .card_paragraph_4 {
-	font-family: Ubuntu;
+	font-family: myFirstFont;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 13px;
@@ -668,7 +672,7 @@ p {
 	color: #8C93AA;
 }
 .ThalesCode_Headquaters {
-	font-family: Ubuntu;
+	font-family: myFirstFont;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 30px;
@@ -676,7 +680,7 @@ p {
 	color: #2B3247;
 }
 .Seek_for_where_we_are {
-	font-family: Ubuntu;
+	font-family: myFirstFont;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 12px;
@@ -724,7 +728,7 @@ td {
 	padding-bottom: 15px;
 }
 #send_submit {
-	font-family: Ubuntu;
+	font-family: myFirstFont;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 14px;
@@ -743,7 +747,7 @@ ul {
 	list-style-type: none;
 }
 li {
-	font-family: Ubuntu;
+	font-family: myFirstFont;
 	font-style: normal;
 	font-weight: 300;
 	font-size: 12px;
@@ -753,7 +757,7 @@ li {
 	color: #000000;
 }
 .footer_information {
-	font-family: Ubuntu;
+	font-family: myFirstFont;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 14px;
@@ -764,7 +768,7 @@ li {
 	padding: 0 !important;
 }
 .footer_partners {
-	font-family: Ubuntu;
+	font-family: myFirstFont;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 14px;
@@ -775,7 +779,7 @@ li {
 	padding: 0 !important;
 }
 .footer_subscribe {
-	font-family: Ubuntu;
+	font-family: myFirstFont;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 14px;
@@ -787,7 +791,7 @@ li {
 	color: #000000;
 }
 .subscribe_email {
-	font-family: Ubuntu;
+	font-family: myFirstFont;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 12px;
@@ -801,7 +805,7 @@ li {
 	size: 200;
 }
 .Copyright {
-	font-family: Ubuntu;
+	font-family: myFirstFont;
 	font-style: normal;
 	font-weight: 300;
 	font-size: 10px;
