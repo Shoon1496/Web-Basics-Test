@@ -1,0 +1,898 @@
+@media (max-width: 768px) {
+	section.download .badges .badge-link {
+    display: inline-block;
+    margin-bottom: 0;
+	}
+	#top-container {
+		background-image: url('images/top_bg_sp.jpg') !important;
+		height: 680px !important;
+		margin: 0 !important;
+		padding: 0;
+	}
+	.pc {
+  		display: none !important;
+	}
+	.sp {
+		display: block !important;
+	}
+	.line2 {
+		margin-left: 0 !important;
+	}
+	.thalescode1 {
+		margin-top: 50px;
+		letter-spacing: 0;
+		font-weight: bolder;
+		line-height: 25px;
+		font-size: 30px;
+	}
+	.thalescode_description1 .thalescode_description_2nd_line1 {
+		margin-top: 70px;
+		letter-spacing: 1px;
+		font-weight: bolder;
+		line-height: 25px;
+		font-size: 25px;
+	}
+	#black_botton_1 #black_botton_2 {
+		margin: 0px -50px !important;
+	}
+	#user_input form table {
+		margin: 0 !important;
+		padding: 0 !important;
+		width: 100% !important;
+		float: none !important;
+	}
+	/*.footer_subscribe .subscribe_email {
+		float: none !important;
+	}*/
+}
+.sp {
+	display: none;
+}
+body {
+	margin: 0;
+    padding: 0;
+}
+#user_input form table {
+	width: 300px;
+	float: right;
+}
+#user_input form input {
+	width: 100%;
+}
+.sidenav {
+    width:3%;
+    height:30%;
+    position: fixed;
+    background-color: black;
+    margin-left: 50px;
+}
+#HamburgerIcon {
+	width: 25px;
+	height: 2px;
+	background-color: white;
+	margin: 6px 0;
+}
+#top-container {
+	background-image: url('images/bg.jpg'); 
+	background-repeat: no-repeat;  
+	width: 100%;
+	mix-blend-mode: normal;
+	/*margin-left: 150px;*/
+}
+header{
+	 background:#35424a;
+	 color:#111;
+}
+ul{
+	margin:0;
+	padding:0;
+}
+header a{
+	font-size:16px;
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 30px;
+	font-size: 8px;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration:none;
+	color: #000000;
+}
+header li{
+  	float:left;
+    display:inline;
+	padding: 0 8px 0 8px;
+	font-family: Helvetica;
+	line-height: 18px;
+	font-size: 8px;
+	letter-spacing: 5px;
+	color: #2CA1F8;
+}
+header #branding{
+	float:left;
+}
+header #branding h1{
+	margin:0;
+}
+header nav{
+	float:right;
+	margin-top:0px;
+}
+header .highlight {
+	font-family: Helvetica;
+	line-height: 18px;
+	font-size: 8px;
+	letter-spacing: 5px;
+	color: #2CA1F8;
+	margin: 0;
+	padding: 0;
+}
+header .code {
+	font-family: Helvetica;
+	line-height: 18px;
+	font-size: 8px;
+	letter-spacing: 5px;
+	color: #000;
+	margin: 0;
+	padding: 0;
+}
+header a:hover{
+	color:#cccccc;
+	font-weight:bold;
+}
+.line2 {
+	top: 30px;
+	bottom: 20px;
+	border-top: 4px solid #333;
+	width: 20px;
+	position: absolute;
+	margin-left: 50px;
+}
+.thalescode {
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: bolder;
+	line-height: 44px;
+	font-size: 44px;
+	color: #000000;
+	margin-top: 50px;
+	padding-top: 0px;
+	padding-bottom: 15px;
+	margin-left: 50px;
+}
+.thalescode_description {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 33px;
+	font-size: 25px;
+	letter-spacing: 1.6px;
+	color: #000000;
+	mix-blend-mode: normal;
+	padding-top: 20px;margin-left: 50px;
+}
+.thalescode_description_2nd_line {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 33px;
+	font-size: 25px;
+	letter-spacing: 1.6px;
+	color: #000000;
+	mix-blend-mode: normal;
+	margin-left: 50px;
+}
+#black_botton_1 {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 18px;
+	font-size: 8px;
+	text-transform: uppercase;
+	color: #FFFFFF;	
+	padding: 5px 15px;
+	background-color: #000;
+	margin-right: 2px;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+#black_botton_2 {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 18px;
+	font-size: 8px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	padding: 5px 15px;
+	background-color: #000;
+	margin-right: 2px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.thalescode_paragraph {
+	margin: -40px 15px 55px 35px;
+	font-family: Ubuntu;
+	font-style: normal;
+	font-size: 10px;
+	text-transform: lowercase;
+	color: #000000;
+	background-color: white;
+	padding: 40px 40px;
+	mix-blend-mode: normal;
+}
+#thalescode_img {
+	width: 300px;
+	height: 300px;
+	border-radius: 200px;
+	margin-left: -20px;
+	margin-top: 30px;
+}
+.latestjobs {
+	padding: 15px;
+	margin: 0px 0px 15px 0px;
+}
+.LatestJobs_title {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 90px;
+	font-size: 30px;
+	color: #2B3247;
+}
+.motivo {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #2B3247;
+	mix-blend-mode: normal;
+	opacity: 0.5;
+}
+#findmore {
+	background-color: white;
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 16px;
+	font-size: 10px;
+	text-align: center;
+	text-transform: uppercase;
+	color: lightgrey;
+	float: right;
+    border-radius: 19px;
+    text-align: center;
+    border: 2px solid lightgrey;
+    padding: 8px 8px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: -15px;
+}
+.h2, .h3, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    border: 0 0;
+}
+.fullstack_developer {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+	font-size: 15px;
+	color: #2B3247;
+}
+.thumbnail .caption {
+    padding: 0px;
+    margin: 0px;
+    color: #333;
+}
+.thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 0px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+    }
+#price1 {
+	margin-top: 0px;
+	margin-bottom: 23px;
+}
+#price2 {
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+#price3 {
+	margin-top: 0px;
+	margin-bottom: 18px;
+}
+#price4 {
+	margin-top: 0px;
+	margin-bottom: 18px;
+}
+.content1 {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 20px;
+	font-size: 12px;
+	color: #000000;
+	mix-blend-mode: normal;
+	opacity: 0.6;
+}
+p {
+	font-size: 8px;
+}
+.line5 {
+	top: -8px;
+	border-top: 3px solid #000000;
+	width: 20px;
+	position: absolute;
+}
+.slider {
+	background: #000000;
+	mix-blend-mode: normal;
+	opacity: 0.2;
+}
+.long_hr {
+	opacity: 0.4;
+	border: 1px solid #979797;
+}
+.line7 {
+	top: 15px;
+	border-top: 4px solid #333;
+	width: 30px;
+	position: absolute;
+}
+.getWhereyouAreGoing_Title {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 46px;
+	font-size: 30px;
+	color: #000000;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+.getWhereyouAreGoing {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 22px;
+	font-size: 14px;
+	color: #000000;
+	mix-blend-mode: normal;
+	opacity: 0.6;
+}
+.squarebox {
+	float: left;
+}
+.line6 {
+	top: 115px;
+	border-top: 4px solid #333;
+	width: 30px;
+	position: absolute;
+}
+.readmore {
+	background-color: white;
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 16px;
+	font-size: 10px;
+	text-align: center;
+	text-transform: uppercase;
+	color: lightgrey;
+	float: right;
+    border-radius: 18px;
+    text-align: center;
+    border: 2px solid lightgrey;
+    padding: 8px 8px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 40px;
+    padding: 5px 15px;
+    float: left;
+}
+#boxImg {
+	width: 300px;
+	height: 300px;
+	margin-top: 150px;
+	margin-left: 150px;
+}
+.Why_ThalesCode {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: #2B3247;
+}
+.why_developers_choose_us {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #2B3247;
+	mix-blend-mode: normal;
+	opacity: 0.5;
+	margin-top: 20px;
+}
+.Employers {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 25px;
+	text-transform: uppercase;
+	color: #000000;
+	margin-top: 30px;
+	margin-left: 450px;
+}
+.Candidates {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 25px;
+	text-transform: uppercase;
+	color: #8C93AA;
+	mix-blend-mode: normal;
+	opacity: 0.5;
+	margin-left: 35px;
+}
+.Why_ThalesCode_line5 {
+	border-top: 4px solid #333;
+	width: 30px;
+	margin-bottom: 50px;
+	margin-left: 540px;
+}
+.number {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 19px;
+	line-height: normal;
+	color: #2CA1F8;
+}
+.IT_Training {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: normal;
+	text-transform: capitalize;
+	color: #2B3247;
+}
+.IT_Training_paragraph {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 19px;
+	color: #000000;
+	mix-blend-mode: normal;
+	opacity: 0.5;
+}
+#findmore2 {
+	background-color: white;
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 16px;
+	font-size: 10px;
+	text-align: center;
+	text-transform: uppercase;
+	color: lightgrey;
+	float: right;
+    border-radius: 19px;
+    text-align: center;
+    border: 2px solid lightgrey;
+    padding: 8px 8px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 0px;
+}
+.ThalesBlog_title {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+	line-height: 73px;
+	padding-top: 25px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	color: #2B3247;
+}
+.learnmore {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 8px;
+	line-height: normal;
+	text-transform: uppercase;
+	margin-top: -35px;
+	padding-top: 0px;
+	color: #2B3247;
+	mix-blend-mode: normal;
+	opacity: 0.5;
+}
+#findmore1 {
+	background-color: white;
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 16px;
+	font-size: 10px;
+	text-align: center;
+	text-transform: uppercase;
+	color: lightgrey;
+	float: right;
+    border-radius: 19px;
+    text-align: center;
+    border: 2px solid lightgrey;
+    padding: 8px 8px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 0px;
+}
+.card-text_1 {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 40px;
+	color: #000000;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+.card-text_2 {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 26px;
+	color: #000000;
+}
+.card-text_3 {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 27px;
+	color: #000000;
+}
+.card_text_4 {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 32px;
+	margin-right: 8px;
+	color: #000000;
+	padding-bottom: 20px;
+}
+.card_paragraph_1 {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 20px;
+	text-align: justify;
+	padding-top: 0px;
+	color: #8C93AA;
+}
+.card_paragraph_2 {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 20px;
+	text-align: justify;
+	color: #8C93AA;
+}
+.card_paragraph_3 {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 20px;
+	text-align: justify;
+	color: #8C93AA;
+}
+.card_paragraph_4 {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 20px;
+	text-align: justify;
+	padding-top: 0px;
+	color: #8C93AA;
+}
+.ThalesCode_Headquaters {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 39px;
+	color: #2B3247;
+}
+.Seek_for_where_we_are {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: normal;
+	text-transform: uppercase;
+	padding-bottom: 60px;
+	color: #2B3247;
+	mix-blend-mode: normal;
+	opacity: 0.5;
+}
+#line6_ThalesCode_Headquaters {
+	margin-top: 30px;
+}
+.ThalesCode_Headquaters_address {
+	/* Meguro-ku, Tokyo Nak */
+	font-family: SanFranciscoDisplay;
+	font-size: 18px;
+	line-height: 25px;
+	color: #313541;
+}
+.ThalesCode_Headquaters_contact {
+	/* CONTACT */
+	font-family: SanFranciscoDisplay;
+	font-weight: bold;
+	font-size: 19px;
+	line-height: 27px;
+	color: #313541;
+}
+.ThalesCode_Headquaters_TEL {
+	/* TEL: +81 (3) 6303 21 */
+	font-family: SanFranciscoDisplay;
+	font-size: 19px;
+	line-height: 21px;
+	color: #313541;
+}
+table {
+	margin-top: 8px;
+	padding-bottom: 30px;
+	margin-bottom: 50px;
+	margin-left: 70px;
+}
+td {
+	line-height: 26px;
+	display: block;
+	padding-bottom: 15px;
+}
+#send_submit {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: normal;
+	text-align: center;
+	color: #FFFFFF;
+	height: 55px; 
+	width: 390px; 
+	background-color: #2B3247
+}
+.footer {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+ul {
+	list-style-type: none;
+}
+li {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 29px;
+	letter-spacing: 1px;
+	padding-bottom: 5px;
+	color: #000000;
+}
+.footer_information {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: normal;
+	letter-spacing: 0.84px;
+	color: #000000;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.footer_partners {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: normal;
+	letter-spacing: 0.84px;
+	color: #000000;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.footer_subscribe {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: normal;
+	letter-spacing: 0.84px;
+	float: right;
+	margin: 0 !important;
+	padding: 0 !important;
+	color: #000000;
+}
+.subscribe_email {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: normal;
+	color: #000000;
+	mix-blend-mode: normal;
+	opacity: 0.4;
+	float: right;
+	margin: 0 !important;
+	padding: 0 !important;
+	size: 200;
+}
+.Copyright {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 10px;
+	line-height: normal;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	color: #000000;
+	float: right;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.CarouselContainer {
+    width: 100%;
+    height: 250px;
+    margin: 15px 0px;
+    user-select: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.CarouselContainer .slideShowContainer {
+    width: 100%;
+    height: 90%;
+    overflow: hidden;
+    position: relative;
+}
+.CarouselContainer .slideShowContainer #playPause:hover {
+    opacity: .7;
+}
+.CarouselContainer .slideShowContainer .slideHolder {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+}
+.CarouselContainer .slideShowContainer .slideHolder .captionText {
+    display: none;
+}
+.CarouselContainer .slideShowContainer>.captionTextHolder {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    overflow: hidden;
+}
+.CarouselContainer .slideShowContainer>.captionTextHolder>.captionText {
+    margin: 0;
+}
+
+.CarouselContainer #dotsContainer {
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+.CarouselContainer #dotsContainer .dots {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-left: 5px;
+    background-color: #bbb;
+    cursor: pointer;
+    transition:background-color 0.5s;
+}
+.CarouselContainer #dotsContainer .dots:first-child {
+    margin-left: 0;
+}
+.CarouselContainer #dotsContainer .dots:hover,.CarouselContainer #dotsContainer .dots.active {
+    background-color: #717171;;
+}
+.CarouselContainer .moveLeftCurrentSlide {
+    animation-name: moveLeftCurrent;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-fill-mode:forwards;
+
+}
+.CarouselContainer .moveLeftNextSlide {
+    animation-name: moveLeftNext;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-fill-mode:forwards;
+}
+@keyframes moveLeftCurrent {
+    from {margin-left: 0;opacity: 1;}
+    to {margin-left: -100%;opacity: 1;}
+}
+@keyframes moveLeftNext {
+    from {margin-left: 100%;opacity: 1;}
+    to {margin-left: 0%;opacity: 1;}
+}
+
+
+.CarouselContainer .moveRightCurrentSlide {
+    animation-name: moveRightCurrent;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-fill-mode:forwards;
+}
+.CarouselContainer .moveRightPrevSlide {
+    animation-name: moveRightPrev;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-fill-mode:forwards;
+}
+@keyframes moveRightCurrent {
+    from {margin-left: 0;opacity: 1;}
+    to {margin-left: 100%;opacity: 1;}
+}
+@keyframes moveRightPrev {
+    from {margin-left: -100%;opacity: 1;}
+    to {margin-left: 0%;opacity: 1;}
+}
+.slideTextFromBottom {
+    animation-name: slideTextFromBottom;
+    animation-duration: 0.7s;
+    animation-timing-function: ease-out;
+}
+@keyframes slideTextFromBottom {
+    from {opacity: 0;margin-top: 100px}
+    to {opacity: 1;margin-top: 0px;}
+}
+.slideTextFromTop {
+    animation-name: slideTextFromTop;
+    animation-duration: 0.7s;
+    animation-timing-function: ease-out;
+}
+@keyframes slideTextFromTop {
+    from {opacity: 0;margin-top: -100px}
+    to {opacity: 1;margin-top: 0px;}
+}
