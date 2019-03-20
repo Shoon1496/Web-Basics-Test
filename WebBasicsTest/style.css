@@ -318,19 +318,19 @@ header a:hover{
     }
 #price1 {
 	margin-top: 0px;
-	margin-bottom: 35px;
+	margin-bottom: 23px;
 }
 #price2 {
 	margin-top: 0px;
-	margin-bottom: 35px;
+	margin-bottom: 23px;
 }
 #price3 {
 	margin-top: 0px;
-	margin-bottom: 35px;
+	margin-bottom: 23px;
 }
 #price4 {
 	margin-top: 0px;
-	margin-bottom: 35px;
+	margin-bottom: 23px;
 }
 .content1 {
 	font-family: myFirstFont;
@@ -344,6 +344,9 @@ header a:hover{
 }
 p {
 	font-size: 8px;
+}
+#btn_margin {
+	margin-bottom: -30px;
 }
 .line5 {
 	top: -12px;
